@@ -29,4 +29,3 @@ def write_video(video, fps, name):
     for i in range(video.shape[0]):
         writer.append_data(video[i])
     writer.close()
-
